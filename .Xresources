@@ -8,7 +8,7 @@ rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
 rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
 
 ! URxvt
-URxvt.perl-ext-common:      default,matcher,tabbedex
+URxvt.perl-ext-common:      default,matcher
 URxvt.url-launcher:         /usr/bin/chromium
 URxvt.underlineURLs:        true
 URxvt.matcher.button:       1
@@ -22,12 +22,9 @@ URxvt.saveLines:            65535
 URxvt.letterSpace:          -1
 URxvt.font:                 xft:Hack:size=10
 URxvt.boldFont:             xft:Hack:bold:size=10
-URxvt.keysym.Control-Up:    \033[1;5A
-URxvt.keysym.Control-Down:  \033[1;5B
-URxvt.keysym.Control-Right: \033[1;5C
-URxvt.keysym.Control-Left:  \033[1;5D
-! tabbedex
 URxvt.tabbed.autohide:          true
+URxvt.tabbed.new-button:        no
+URxvt.tabbed.no-tabbedex-keys:  yes
 URxvt.tabbed.tabbar-fg:         2
 URxvt.tabbed.tabbar-bg:         0
 URxvt.tabbed.tab-fg:            4
@@ -77,3 +74,4 @@ URXvt.tabbed.reopen-on-close:   yes
 *.color19:      base02
 *.color20:      base04
 *.color21:      base06
+
