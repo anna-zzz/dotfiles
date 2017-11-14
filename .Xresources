@@ -1,0 +1,79 @@
+Xft.dpi:	144
+
+! ROFI
+rofi.color-enabled: true
+rofi.color-window: #273238, #273238, #1e2529
+rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff
+rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
+rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
+
+! URxvt
+URxvt.perl-ext-common:      default,matcher,tabbedex
+URxvt.url-launcher:         /usr/bin/chromium
+URxvt.underlineURLs:        true
+URxvt.matcher.button:       1
+URxvt.jumpScroll:           false
+URxvt.urgentOnBell:         true
+URxvt.scrollBar:            false
+URxvt.scrollTtyOutput:      false
+URxvt.scrollWithBuffer:     true
+URxvt.scrollTtyKeypress:    true
+URxvt.saveLines:            65535
+URxvt.letterSpace:          -1
+URxvt.font:                 xft:Hack:size=10
+URxvt.boldFont:             xft:Hack:bold:size=10
+URxvt.keysym.Control-Up:    \033[1;5A
+URxvt.keysym.Control-Down:  \033[1;5B
+URxvt.keysym.Control-Right: \033[1;5C
+URxvt.keysym.Control-Left:  \033[1;5D
+! tabbedex
+URxvt.tabbed.autohide:          true
+URxvt.tabbed.tabbar-fg:         2
+URxvt.tabbed.tabbar-bg:         0
+URxvt.tabbed.tab-fg:            4
+URxvt.tabbed.tab-bg:            0
+URxvt.tabbed.title:             yes
+URXvt.tabbed.reopen-on-close:   yes 
+
+! Base16 Default Dark
+#define base00 #181818
+#define base01 #282828
+#define base02 #383838
+#define base03 #585858
+#define base04 #b8b8b8
+#define base05 #d8d8d8
+#define base06 #e8e8e8
+#define base07 #f8f8f8
+#define base08 #ab4642
+#define base09 #dc9656
+#define base0A #f7ca88
+#define base0B #a1b56c
+#define base0C #86c1b9
+#define base0D #7cafc2
+#define base0E #ba8baf
+#define base0F #a16946
+*.foreground:   base05
+*.background:   base00
+*.cursorColor:  base05
+*.color0:       base00
+*.color1:       base08
+*.color2:       base0B
+*.color3:       base0A
+*.color4:       base0D
+*.color5:       base0E
+*.color6:       base0C
+*.color7:       base05
+*.color8:       base03
+*.color9:       base08
+*.color10:      base0B
+*.color11:      base0A
+*.color12:      base0D
+*.color13:      base0E
+*.color14:      base0C
+*.color15:      base07
+*.color16:      base09
+*.color17:      base0F
+*.color18:      base01
+*.color19:      base02
+*.color20:      base04
+*.color21:      base06
